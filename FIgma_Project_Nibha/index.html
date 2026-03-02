@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Programming Pathshala – Mock Assessments</title>
+
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+</head>
+<div class="login-overlay" id="loginOverlay">
+  <div class="login-modal">
+    <h3>Log in to Programming Pathshala</h3>
+
+    <form>
+      <input type="email" placeholder="Email address" required />
+      <input type="password" placeholder="Password" required />
+
+      <div class="login-actions">
+        <button type="submit" class="primary-btn">Log In</button>
+        <button type="button" class="cancel-btn" id="closeLogin">Cancel</button>
+      </div>
+    </form>
+  </div>
+</div>
+<body>
+
+<header class="navbar">
+  <div class="logo-wrap">
+  <img src="assets/logo.png" alt="Programming Pathshala Logo" class="logo-img">
+  <span class="logo-text">Programming Pathshala</span>
+</div>
+  <div class="nav-links">
+  <div class="nav-item">
+    <a href="#">Fellowship Program</a>
+    <span>Launch Tech Career</span>
+  </div>
+
+  <div class="nav-item">
+    <a href="#">Renaissance</a>
+    <span>Interview Preparation</span>
+  </div>
+
+  <div class="nav-item">
+    <a href="#">Certification Courses ▾ </a>
+    <span>In-Demand Skills</span>
+  </div>
+
+  <div class="nav-item">
+    <a href="#">Resources ▾ </a>
+    <span>Free Learning</span>
+  </div>
+</div>
+  <div class="nav-actions">
+    <a href="pages/login.html" class="login-btn">Log In</a>
+    <a href="pages/signup.html" class="trial-btn">Start 7-Days Free Trial</a>
+  </div>
+</header>
+
+
+<section class="hero">
+  <div class="hero-left">
+    
+    <h1>
+      Ace <span class="highlight-yellow">Your Dream Job</span><br>
+      with Industry-Ready<br>
+      <span class="highlight-green">Mock Assessments</span>
+    </h1>
+
+    <div class="badges">
+      <span class="badge">🏢 Real Company Test Patterns</span>
+      <span class="badge">💡 Expert Questions</span>
+      <span class="badge">📘 Master Core Topics Like Graphs & Arrays</span>
+      <span class="badge">📊 Performance Insights</span>
+      <span class="badge">⏱ Flexible & Accessible Anytime</span>
+      <span class="badge">🎓 Simulated Test Environment</span>
+    </div>
+
+    <a href="pages/mock-test.html" class="cta-btn-hero">Take Free Mock Test</a>
+  </div>
+  <div class="hero-right">
+ <div class = "right-wrapper">
+    <div class="card">
+      <h3>Master Core Topics</h3>
+      <div class="grid">
+        <div class="grid-item">
+        <img src="assets/backtracking.png" alt="Backtracking Icon" class="icon">
+            <p>Backtracking</p>
+        </div>
+        <div class="grid-item">
+        <img src="assets/stacks.png" alt="Stacks Icon" class="icon">    
+            <p>Stacks</p>
+        </div>
+        <div class="grid-item">
+            <img src="assets/dy-programming.png" alt="Dynamic Programming Icon" class="icon">
+           <p>Dynamic Programming</p></div>
+        <div class="grid-item">
+        <img src="assets/graphs.png" alt="Graphs Icon" class="icon">
+            <p></p>Graphs</p></div>
+        <div class="grid-item">
+            <img src="assets/arrays.png" alt="Arrays Icon" class="icon">
+            </p>Arrays</p>
+        </div>
+        <div class="grid-item">
+            <img src="assets/linked-list.png" alt="Linked List Icon" class="icon">
+            <p></p>Linked List</p></div>
+      </div>
+      <h3 class="muted">and many more...</h3>
+    </div>
+
+<div class="card">
+  <h3>Crack Top Tech Companies</h3>
+
+  <div class="company-grid">
+    <div class="company"><i class="fa-brands fa-amazon"></i></div>
+    <div class="company"><i class="fa-brands fa-google"></i></div>
+    <div class="company"><i class="fa-brands fa-meta"></i></div>
+    <div class="company"><i class="fa-brands fa-microsoft"></i></div>
+  </div>
+
+  <p class="muted">and many more…</p>
+</div>
+  </div>
+  </div>
+</section>
+<section class="company-tests">
+
+  <div class="section-header">
+    <h2>Company Based Tests</h2>
+    <a href="#" class="view-all">VIEW ALL</a>
+  </div>
+
+  <div class="test-grid">
+    <div class="test-card">
+      <div class="brand amazon">
+        <i class="fa-brands fa-amazon"></i>
+        <span>amazon</span>
+      </div>
+
+      <h3>Intern Mock Assessment</h3>
+
+      <div class="meta">
+        <span>12 Problems</span>
+        <span>120 Mins</span>
+        <span>Easy</span>
+      </div>
+
+      <button>Start Test</button>
+    </div>
+    <div class="test-card">
+      <div class="brand google">
+        <i class="fa-brands fa-google"></i>
+        <span>Google</span>
+      </div>
+
+      <h3>L4 Mock Assessment</h3>
+
+      <div class="meta">
+        <span>12 Problems</span>
+        <span>120 Mins</span>
+        <span>Easy</span>
+      </div>
+
+      <button>Start Test</button>
+    </div>
+    <div class="test-card">
+      <div class="brand microsoft">
+        <i class="fa-brands fa-microsoft"></i>
+        <span>Microsoft</span>
+      </div>
+
+      <h3>SDE I Mock Assessment</h3>
+
+      <div class="meta">
+        <span>12 Problems</span>
+        <span>120 Mins</span>
+        <span>Easy</span>
+      </div>
+
+      <button>Start Test</button>
+    </div>
+    <div class="test-card">
+      <div class="brand amazon">
+        <i class="fa-brands fa-amazon"></i>
+        <span>amazon</span>
+      </div>
+
+      <h3>Intern Mock Assessment</h3>
+
+      <div class="meta">
+        <span>12 Problems</span>
+        <span>120 Mins</span>
+        <span>Easy</span>
+      </div>
+
+      <button>Start Test</button>
+    </div>
+    <div class="test-card">
+      <div class="brand google">
+        <i class="fa-brands fa-google"></i>
+        <span>Google</span>
+      </div>
+
+      <h3>L4 Mock Assessment</h3>
+
+      <div class="meta">
+        <span>12 Problems</span>
+        <span>120 Mins</span>
+        <span>Easy</span>
+      </div>
+
+      <button>Start Test</button>
+    </div>
+    <div class="test-card">
+      <div class="brand microsoft">
+        <i class="fa-brands fa-microsoft"></i>
+        <span>Microsoft</span>
+      </div>
+
+      <h3>SDE I Mock Assessment</h3>
+
+      <div class="meta">
+        <span>12 Problems</span>
+        <span>120 Mins</span>
+        <span>Easy</span>
+      </div>
+
+      <button>Start Test</button>
+    </div>
+    <div class="test-card">
+      <div class="brand amazon">
+        <i class="fa-brands fa-amazon"></i>
+        <span>amazon</span>
+      </div>
+
+      <h3>Intern Mock Assessment</h3>
+
+      <div class="meta">
+        <span>12 Problems</span>
+        <span>120 Mins</span>
+        <span>Easy</span>
+      </div>
+
+      <button>Start Test</button>
+    </div>
+    <div class="test-card">
+      <div class="brand google">
+        <i class="fa-brands fa-google"></i>
+        <span>Google</span>
+      </div>
+
+      <h3>L4 Mock Assessment</h3>
+
+      <div class="meta">
+        <span>12 Problems</span>
+        <span>120 Mins</span>
+        <span>Easy</span>
+      </div>
+
+      <button>Start Test</button>
+    </div>
+    <div class="test-card">
+      <div class="brand microsoft">
+        <i class="fa-brands fa-microsoft"></i>
+        <span>Microsoft</span>
+      </div>
+
+      <h3>SDE I Mock Assessment</h3>
+
+      <div class="meta">
+        <span>12 Problems</span>
+        <span>120 Mins</span>
+        <span>Easy</span>
+      </div>
+
+      <button>Start Test</button>
+    </div>
+     </div>
+</section>
+
+
+<section class="path-section">
+  <h2 class="section-title">Choose Your Path To Success</h2>
+
+  <div class="path-grid">
+    <div class="path-column">
+      <p class="path-label">For Businesses</p>
+
+      <div class="path-card">
+        <div class="card-visual">
+          <div class="card-visual-top">
+            <div class="card-visual-text">
+              <span class="pill yellow">✨ Real Connection, Real Impact</span>
+              <h3>Universities &<br>Corporations</h3>
+            </div>
+
+            <div class="card-visual-image">
+              <img src="assets/img_for_business.png" alt="">
+            </div>
+          </div>
+        </div>
+
+        <h4>Training Solutions for Universities & Corporations</h4>
+
+        <div class="features">
+          <span>🏢 Industry-Backed Expertise</span>
+          <span>🎯 Custom-Tailored Programs</span>
+          <span>📈 Proven Track Record</span>
+          <span>👥 Real-World Projects & Case Studies</span>
+          <span>⚙ Flexible & Need Based Mode Of Delivery</span>
+        </div>
+
+        <button class="primary-btn">
+          Apply Now <span>↗</span>
+        </button>
+      </div>
+    </div>
+    <div class="path-column">
+      <p class="path-label">For Individuals</p>
+
+      <div class="path-card">
+        <div class="card-visual">
+          <div class="card-visual-top">
+            <div class="card-visual-text">
+              <span class="pill yellow">✨ Flexible Learning, Big Result</span>
+              <h3>Renaissance<br>for Top Tech Companies</h3>
+            </div>
+
+            <div class="card-visual-image">
+              <img src="assets/img_for_individuals.png" alt="">
+            </div>
+          </div>
+        </div>
+          <h4>Crack Your Next Coding Round with Renaissance</h4>
+        
+
+        <div class="features">
+          <span>🧩 Flexible Learning</span>
+          <span>🎤 Mock Interviews & Career Support</span>
+          <span>📦 All Courses in One Subscription</span>
+          <span>👤 1 on 1 Mentorship</span>
+          <span>🚀 Structured Learning</span>
+          <span>✅ Performance Based Referrals</span>
+        </div>
+
+        <button class="primary-btn">
+          Start 7-Days Free Trial <span>↗</span>
+        </button>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+
+<section class="cta-wrapper">
+  <div class="cta-card">
+    <div class="cta-left">
+      <img src="assets/Illustration.png" alt="Coding Illustration">
+    </div>
+
+    <div class="cta-right">
+      <h2>CODE EVERYDAY<br>WITH VIVEK</h2>
+
+      <div class="cta-tags">
+        <span>Daily Problem Solving</span>
+        <span>Community Support</span>
+        <span>Earning Cool Rewards</span>
+      </div>
+
+      <button class="cta-btn">Join Now</button>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="footer-inner">
+    <div class="footer-col">
+      <h4>ABOUT US</h4>
+      <ul>
+        <li>Join our Community</li>
+        <li>Success Stories</li>
+        <li>Blogs</li>
+        <li>Events</li>
+        <li>Terms & Conditions</li>
+        <li>Refund Policy</li>
+      </ul>
+    </div>
+    <div class="footer-col popular-programs">
+      <h4>POPULAR PROGRAMS</h4>
+
+      <div class="program-item">
+        <img src="assets/renaissance_for_ttc.png" alt="" />
+        <span>Renaissance for Top Tech Companies</span>
+      </div>
+
+      <div class="program-item">
+        <img src="assets/concurrency.png" alt="" />
+        <span>Become SSE & Crack Design Rounds</span>
+      </div>
+
+      <div class="program-item">
+        <img src="assets/java_backend.png" alt="" />
+        <span>Become Java Spring Boot Backend Developer</span>
+      </div>
+    </div>
+    <div class="footer-col">
+      <h4>MORE COURSES</h4>
+      <ul>
+        <li>Crack Coding Rounds in DSA</li>
+        <li>Python Essentials for ML & Web Dev</li>
+        <li>Master C++ for Problem Solving & Interviews</li>
+      </ul>
+
+      <h4 class="inline">
+        SUMMER TRAINING CERTIFICATE
+        <span class="newbadgee">New</span>
+      </h4>
+
+      <p class="muted">Future Stack – MERN + Modern DevOps + AI</p>
+
+      <h4>FOR BUSINESSES</h4>
+      <p class="muted">Trainings for Universities & Corporations</p>
+    </div>
+    <div class="footer-col">
+      <h4>CONTACT US</h4>
+
+      <div class="contact-item">
+  <i class="fa-solid fa-phone"></i>
+  <a href="tel:+919871723495">+91 98717 23495</a>
+</div>
+
+<div class="contact-item">
+  <i class="fa-solid fa-location-dot"></i>
+  <a
+    href="https://www.google.com/maps/search/?api=1&query=514+Iconic+Corenthum+Tower+Sector+62+Noida"
+    target="_blank"
+  >
+    514, Iconic Corenthum Tower, Noida Sector 62, Noida
+  </a>
+</div>
+
+<div class="contact-item">
+  <i class="fa-solid fa-envelope"></i>
+  <a href="mailto:help@programmingpathshala.com">
+    help@programmingpathshala.com
+  </a>
+</div>
+
+      <h4>SOCIAL LINKS</h4>
+      <div class="socials">
+  <a href="https://www.facebook.com/programmingpathshala" target="_blank" aria-label="Facebook">
+    <i class="fa-brands fa-facebook-f"></i>
+  </a>
+
+  <a href="https://www.linkedin.com/company/programming-pathshala" target="_blank" aria-label="LinkedIn">
+    <i class="fa-brands fa-linkedin-in"></i>
+  </a>
+
+  <a href="https://www.instagram.com/programmingpathshala" target="_blank" aria-label="Instagram">
+    <i class="fa-brands fa-instagram"></i>
+  </a>
+
+  <a href="https://www.youtube.com/@ProgrammingPathshala" target="_blank" aria-label="YouTube">
+    <i class="fa-brands fa-youtube"></i>
+  </a>
+</div>
+    </div>
+
+  </div>
+
+  <div class="footer-bottom">
+    All Right Reserved with @Programming Pathshala
+  </div>
+</footer>
+<script src="js/main.js"></script>
+</body>
+</html>
+
